@@ -149,6 +149,29 @@ Distinct multiple col   -    Select DISTINCT `COL 5`,`COL 3` FROM tested
 
 Comparison operator   -   SELECT * FROM `tested` WHERE `COL 2`=0;
 
+And Operator    -     SELECT * FROM `tested` WHERE `COL 2` = 0 AND `COL 3` =3
+
+Between Operator    -    SELECT * FROM `tested` WHERE `COL 6` BETWEEN 10 AND 50
+
+OR    -   SELECT `COL 2` FROM `tested` WHERE `COL 6` > 20 OR `COL 5`='Male'
+
+IN    -    SELECT `COL 4` FROM `tested` WHERE `COL 2` IN ('0','1');
+
+NOT IN    -    SELECT `COL 4` FROM `tested` WHERE `COL 2` NOT IN ('0','1');
+
+WildCards   -    SELECT `COL 4` FROM tested WHERE `COL 4` LIKE 'A%';  matlab baad me kuchbhi ho vo naam nikalke de jo A se start hota he
+                 SELECT `COL 4` FROM tested WHERE `COL 4` LIKE '%And%'; matlab naam ke beech me and ata he ki nahi
+                 SELECT `COL 4` FROM `tested` WHERE `COL 4` like "__________" exactly itne character he jitne undescroll he 
+                 SELECT `COL 4` FROM `tested` WHERE `COL 4` like "_______________________"; same bass start a se ho raha 
+                 
+                 
+UPDATE    -      UPDATE students SET sname = 'PPS'
+                 UPDATE students SET sname ='Rohit' WHERE email like '%gmail%' matlab jaha par bhi email gmail he vaha par sname ko rohit karlo
+                 
+DElete   -    DELETE FROM students WHERE sid = 4
+
+
+
 
 """
 
