@@ -90,7 +90,7 @@ CREATE TABLE passanger(
 """
                               ALTER TABLE COMMANDS
  1. add columns (
-                    alter table (table name) add column (column name) (datatype of the column) (not null) (auto_incriment) and rest to add on                                      
+                  alter table (table name) add column (column name) (datatype of the column) (not null) (auto_incriment) and rest to add on                                      
                 )
  
  2.   Delete columns   (
@@ -98,7 +98,7 @@ CREATE TABLE passanger(
                         )
  
  3.   modify columns   (
-                            alter table (table name) modify column (column name) (jis data type m convert karn ah ya kuch aur change karna h toh uske yaha p aega)
+                            alter table (table name) modify column (column name) (jis data type m convert karnah ya kuch aur change karna h toh uske yaha p aega)
                         )
  
  4.  add remove constrains    (
