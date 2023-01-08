@@ -117,7 +117,23 @@ CREATE TABLE passanger(
 
 """
 
+INSERT ( 
+            1   -    INSERT INTO `users` (`id`, `name`, `email`, `password`) VALUES (NULL, '{}', '{}', '{}');
+          
+          2   -  INSERT INTO `users` VALUES (NULL, '{}', '{}', '{}');
+          
+          3 (For multiple values)    -    INSERT INTO `users` (),(),()
+       )
+
+"""
 
 
 
 """
+
+RETRIEVE 
+
+
+
+"""
+
