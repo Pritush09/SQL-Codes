@@ -131,7 +131,7 @@ INSERT (
 
 """
 
-RETRIEVE 
+RETRIEVE (Practice on the titanic dataset)
 
 
 
