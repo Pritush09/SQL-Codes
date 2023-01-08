@@ -133,6 +133,21 @@ INSERT (
 
 RETRIEVE (Practice on the titanic dataset)
 
+Select all columns  -   (SELECT * FROM (table name))
+
+Filtering the columns we want     -     SELECT `COL 1`,`COL 2` FROM tested;  #if the columns have spaces between them otherwise simply name no string type structure required
+
+Getting the column with different names(Alias)   -   SELECT `COL 1`as (jo bhi nam se bulana chahte ho),`COL 2` as (same thing here) FROM tested;
+
+Calculating the expression   -   SELECT `COL 4`,`COL 7`+`COL 8` AS Family FROM tested;  name and family he
+
+Constants   -   SELECT `COL 4`,(`COL 7`+`COL 8`)*10000 AS Compensation FROM tested;
+
+Distinct single col   -    Select DISTINCT `COL 5` FROM tested
+
+Distinct multiple col   -    Select DISTINCT `COL 5`,`COL 3` FROM tested
+
+Comparison operator   -   SELECT * FROM `tested` WHERE `COL 2`=0;
 
 
 """
